@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cta h1 {
+    float: left;
+    width: 300px;
+    text-align: center;
+    font-size: 80px;
+    margin: 70px;
+}
+
+.slogan {
+    display: block;
+}
+
+.start {
+    display: block;
+    font-size: 20px;
+    font-family: serif;
+    border: solid;
+    border-width: thin;
+    padding: 0;
+}
+
+.cta img {
+    display: inline;
+}
+
+.cta {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.content-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content-topleft {
+    float: left;
+    margin-right: 10px;
+}
+
+.content-topleft, .content-topright {
+    width: 400px;
+    display: inline-block;
+}
+
+
+nav a {
+    padding: 20px;
+    color: gray;
+    text-decoration: none;
+}
+
+nav, .logo {
+    display: inline;
+    margin-left: 25px;
+}
+
+.content-bottomleft {
+    float: left;
+}
+
+.content-bottom {
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+.content-bottomleft, .content-bottommiddle, .content-bottomright {
+    width: 275px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer {
+    display: inline-block;
+    padding-top: 10px;
+    width: 150px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+}
